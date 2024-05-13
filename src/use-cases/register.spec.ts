@@ -38,3 +38,4 @@ describe("Register User", () => {
     await expect(() => registerUseCase.execute(newUser)).rejects.toBeInstanceOf(Error)
   })
 })
+//main
